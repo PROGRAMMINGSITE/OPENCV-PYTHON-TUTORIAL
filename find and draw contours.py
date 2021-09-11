@@ -11,7 +11,7 @@ contours,hierarchy = cv2.findContours(thresh,cv2.RETR_TREE , cv2.CHAIN_APPROX_NO
 print('number of contours = '+ str(len(contours)))
 print(contours[0])
 
-cv2.drawContours(img,contours, -1,(7, 129, 157),3)
+cv2.drawContours(img,contours, -1,(0, 255, 0),1)
 cv2.imshow('images',img)
 #cv2.imshow('image gray',imgray)
 cv2.waitKey(0)
